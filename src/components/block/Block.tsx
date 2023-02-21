@@ -4,7 +4,7 @@ import styles from "./Block.module.scss";
 const defaultCurrencies = ["UAH", "USD", "EUR", "GBP"];
 
 interface IBlock {
-  value: string;
+  value: number;
   currency: string;
   onChangeValue?: (e: any) => void;
   onChangeCurrency: (cur: any) => void;
